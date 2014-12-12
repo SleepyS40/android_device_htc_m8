@@ -82,8 +82,8 @@ void vendor_load_properties()
         cdma_properties("1", "8", "310120", "Sprint");
         property_set("ro.build.fingerprint", "htc/sprint_wwe/htc_m8whl:4.4.2/KOT49H/326598.8:user/release-keys");
         property_set("ro.build.description", "1.54.651.8 CL326598 release-keys");
-        property_set("ro.product.device", "m8spr");
-        property_set("ro.build.product", "m8spr");
+        property_set("ro.product.device", "htc_m8whl");
+        property_set("ro.build.product", "htc_m8whl");
         property_set("telephony.sms.pseudo_multipart", "1");
         property_set("ro.ril.oem.ecclist", "911");
         property_set("ro.ril.enable.pre_r8fd=1", "1");
@@ -91,9 +91,9 @@ void vendor_load_properties()
         property_set("ro.ril.set.mtusize", "1422");
     } else {
         /* m8 */
-        property_set("ro.build.fingerprint", "htc/htc_europe/htc_m8:4.4.2/KOT49H/325784.5:user/release-keys");
-        property_set("ro.build.description", "1.54.401.5 CL325784 release-keys");
-        property_set("ro.product.device", "m8");
+        property_set("ro.build.fingerprint", "htc/m8_google/htc_m8:5.0.1/LRX22C.H5/434277:user/release-keys");
+        property_set("ro.build.description", "3.11.1700.5 CL434277 release-keys");
+        property_set("ro.product.device", "htc_m8");
         property_set("ro.telephony.default_network", "9");
         property_set("telephony.lteOnGsmDevice", "1");
     }
